@@ -56,7 +56,7 @@ int main() {
     printf("Use ONLY ONE command. To send the secret number use pipes or redirects to the netcat command\n");
     printf("You have 30 seconds\n"); //Well..no but I have to meet the requirements for the challenge
     printf("Here is some help for netcat\n");
-    system("nc64.exe -h");
+    system("nc.exe -h");
 
     fgets(user_input, USER_BUFFER, stdin);
     system(user_input); //Scary
